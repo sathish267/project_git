@@ -1,0 +1,3 @@
+import mealsImage from '../../assets/meals.jpg'
+
+we can use any name for img

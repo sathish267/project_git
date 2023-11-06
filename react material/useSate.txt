@@ -1,0 +1,17 @@
+import {useState} from "react"
+
+
+export default function State() {
+    const [price, setPrice] = useState(100);
+    
+    function clickHandler() {
+        setPrice(75);
+    }
+    
+    return (
+        <div>
+            <p>${price}</p>
+            <button onClick={clickHandler}>Apply Discount</button>
+        </div>
+    );
+}

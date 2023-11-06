@@ -1,0 +1,3 @@
+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
+
+git remote set-url origin https://<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>@github.com/<sathish267>/<rayvector-learning>.git

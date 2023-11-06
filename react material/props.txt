@@ -1,0 +1,18 @@
+             app.js
+
+import React from 'react';
+
+import Product from './Product';
+import './styles.css';
+
+// don't change the Component name "App"
+export default function App() {
+    return (
+        <div>
+  <Product TITLE="Product 1" $PRICE="$10" DESCRIPTION="First product" /> 
+  <Product TITLE="Product 2" $PRICE="$20" DESCRIPTION="second product" /> 
+        </div>
+    );
+}
+
+               Product.js

@@ -1,0 +1,38 @@
+<script>
+// promise
+// function tatkalBook(){
+//      return new Promise((resolve,reject)=>{
+//     let bookingSuccess = true
+//     if (bookingSuccess)
+//         resolve(850)
+//     else
+//     reject()
+
+// })
+
+// }
+
+
+// tatkalBook.then((amt)=> console.log(`thanks buddy i have tranfered Rs.${amt}`))
+// .catch(()=>    console.log("thanks for trying i will book bus ticket")
+// )
+ 
+let user ={
+    name:'anonymous',
+    pageAccess:['login','dashboard','contact'],
+
+    set setName(value) {
+        this.name=value
+    },
+    get getName(){
+        return this.name;
+    }
+};
+let admin ={
+
+    __proto__:user
+};
+
+console.log(admin);
+
+</script>
